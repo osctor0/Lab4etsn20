@@ -1,0 +1,7 @@
+The cat is sitting on the windowsill.
+I have a dog and a cat.
+This line does not contain the keyword.
+Caterpillars are not the same as cats.
+A cat can be very playful.
+Nothing to see here.
+Another line about a category, but not exactly a cat.
