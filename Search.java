@@ -22,10 +22,12 @@ public class Search {
             while ((line = reader.readLine()) != null) {
                 if (line.contains(wordToBeSearchedFor)) {    
                     lines = lines + lineNumber + " ";
+                    System.out.println(lineNumber + ": " + line);
                 }
+                
                 lineNumber++;
             }
-            System.out.print("The following lines contain the word: " + lines);
+            //System.out.print("The following lines contain the word: " + lines);
 
         } catch (IOException e) {
             System.out.println("Error reading file: " + e.getMessage());
